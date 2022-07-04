@@ -1,0 +1,217 @@
+body{
+
+/* font-family: 'Yuji Mai', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+
+#title{
+  text-align: center;
+  background-color: yellow;
+
+
+
+}
+.testimonial-picture{
+   border-radius: 10px;
+
+   border-style: ridge;
+   border-width: medium;
+   border-color: white;
+   width: 70%
+
+   /* padding-top: 2rem; */
+
+
+
+
+}
+
+h1{
+  /* font-family: 'Shalimar', cursive; */
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+  /* font-family: 'Shalimar', cursive; */
+}
+
+p{
+
+}
+h2{
+font-family: 'Permanent Marker', cursive;
+}
+.carousel-item{
+    padding: 2% 10%;
+}
+
+
+
+.nav-link{
+  color: black;
+}
+
+.navbar-brand{
+font-family: cursive;
+font-weight: lighter;
+
+  font-size: 30px;
+}
+.cat{
+  width: 70px;
+}
+
+
+
+
+/* Button Zone */
+.button-style{
+margin-top: 15px;
+
+}
+
+
+/* FOOD ICON LIST ZONE */
+#food-item{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.food-icon {
+  width: 200px;
+}
+
+/* FOOD BOOOK ZONE */
+#Food-galary{
+  text-align: center;
+ background-color: #77E4D4;
+padding: 5% 10%;
+}
+
+
+.box{
+padding-top: 2%;
+padding-bottom: 2%;
+
+}
+.card-padd2{
+
+}
+
+.menu-pic{
+  border-style: groove;
+  border-color: white;
+
+  width: 200px;
+  height: 200px;
+}
+
+
+/* DELIVERY INFO SECTION */
+#delivery-info{
+  text-align: center;
+  background-color: #EEEEEE;
+  padding: 5% 15%;
+}
+
+.delivery-image{
+  width: 200px;
+
+
+}
+
+
+
+
+
+/* BIG PIC SHOW CLASS */
+#big-pic-show{
+  padding: 5% 10%;
+  background-color: yellow;
+}
+.big-pic{
+  width: 500px;
+  height: 500px;
+  border-style: groove;
+  border-color: white;
+}
+
+.big-pic-pad{
+  padding-top: 8%;
+}
+/* RATING ZONE */
+
+#rating-zone{
+  padding: 5% 15%;
+  text-align: center;
+
+}
+
+.review-text{
+  /* font-family: "Montserrat", sans-serif; */
+  color: grey;
+}
+
+.logo-review{
+
+    width: 100px;
+  }
+
+
+
+/* FOOTER SECTION   */
+#footer{
+  padding: 5% 15%;
+  background-color: black;
+}
+
+.footer-color{
+  color:#DFD8CA;
+font-family: 'Montserrat', sans-serif;
+}
+.footer-font{
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+
+
+}
+
+
+#sociel-icon{
+  text-align: center;
+  background-color: black;
+ padding: 0% 15% 2%;
+
+}
+
+.size{
+  font-size: 40px;
+  padding: 2%;
+  color: #DFD8CA;
+  font-weight: lighter;
+
+}
+
+
+@media(max-width: 1390px){
+  .box{
+    padding-left: 30px;}
+
+    .card-padd{
+      padding: 10px;
+
+    }
+    .testimonial-picture{
+      width: 400px;
+
+
+
+    }
+    .big-pic{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 1rem;
+    }
+  }
